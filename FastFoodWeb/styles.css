@@ -43,10 +43,15 @@ header{
     background: var(--bg-color);
 }
 
+.logo img{
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+}
+
 .logo{
-    color: var(--main-color);
-    font-weight: 600;
-    font-size: 2.4rem;
+    background: var(--main-color);
+    border-radius: 50%;
 }
 
 .navbar{
